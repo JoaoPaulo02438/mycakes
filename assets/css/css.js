@@ -28,11 +28,15 @@ const css = StyleSheet.create({
       backgroundColor: 'black'
     },
 
+    loginLogomarca:{
+      marginBottom: 10,
+    },
+
     loginMsg:(text='nome')=>({
       fontWeight:'bold',
       fontSize: 20,
       color: 'red',
-      marginTop: 10,
+      marginTop: 5,
       marginBottom: 15,
       display: text
     }),
